@@ -1,0 +1,40 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.2.1",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.1.0",
+        "axios": "^0.21",
+        "bootstrap": "^4.6.0",
+        "chart.js": "3.4.1",
+        "github-buttons": "2.18.1",
+        "jquery": "^3.6",
+        "laravel-mix": "^6.0.19",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.14.3",
+        "postcss": "^8.2.1",
+        "postcss-import": "^14.0.2",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "shards-ui": "3.0.0",
+        "tailwindcss": "^2.0.2"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "bootstrap-select": "^1.13.18",
+        "js-cookie": "^3.0.1",
+        "qrcode": "^1.4.4",
+        "shards-ui": "^3.0.0",
+        "vast-player": "^0.2.10"
+    }
+}
